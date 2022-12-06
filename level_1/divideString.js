@@ -1,3 +1,6 @@
+// Level  : 0
+// 문제명 : 문자열 나누기
+
 function solution(s) {
     var answer = 0;
 
