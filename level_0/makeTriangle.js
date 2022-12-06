@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 삼각형의 완성조건 (2)
 
 function solution(sides) {
