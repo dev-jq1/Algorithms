@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 로그인 성공?
 
 function solution(id_pw, db) {
