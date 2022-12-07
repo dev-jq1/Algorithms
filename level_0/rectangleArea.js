@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 직사각형 넓이 구하기
 
 function solution(dots) {
