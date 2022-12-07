@@ -1,3 +1,6 @@
+// Level  : 0
+// 문제명 : 최빈값 구하기
+
 function solution(array) {
     const chkObj = {};
     array.map(el => {
