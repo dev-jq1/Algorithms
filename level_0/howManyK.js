@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : k의 개수
 
 function solution(start, end, num) {
