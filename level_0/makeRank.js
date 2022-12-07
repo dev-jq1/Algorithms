@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 등수 매기기
 
 function solution(score) {
