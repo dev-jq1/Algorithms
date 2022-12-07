@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 문자열 밀기
 
 function solution(A, B) {
