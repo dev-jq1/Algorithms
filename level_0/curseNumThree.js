@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 저주의 숫자 3
 
 function solution(n) {
