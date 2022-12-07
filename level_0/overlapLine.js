@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 겹치는 선분의 길이
 
 function solution(lines) {
