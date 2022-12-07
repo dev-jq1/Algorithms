@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 유한소수 판별하기
 
 function solution(a, b) {
