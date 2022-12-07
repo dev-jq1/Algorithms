@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 369게임
 
 function solution(order) {
