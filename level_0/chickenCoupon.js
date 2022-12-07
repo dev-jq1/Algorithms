@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 치킨 쿠폰
 
 function solution(chicken) {
