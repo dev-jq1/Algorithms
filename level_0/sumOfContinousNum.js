@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 연속된 수의 합
 
 function solution(num, total) {
