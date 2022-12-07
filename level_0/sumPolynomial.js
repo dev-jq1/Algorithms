@@ -1,3 +1,6 @@
+// Level  : 0
+// 문제명 : 다항식 더하기
+
 function solution(polynomial) {
     const element = polynomial.split(" + ");
 
