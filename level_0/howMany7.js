@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 7의 개수
 
 function solution(emergency) {
