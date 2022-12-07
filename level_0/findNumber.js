@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 숫자 찾기
 
 function solution(num, k) {    
