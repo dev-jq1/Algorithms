@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 합성수 찾기
 
 function solution(n) {
