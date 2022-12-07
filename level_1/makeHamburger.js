@@ -1,55 +1,23 @@
+// Level  : 1
+// 문제명 : 햄버거 만들기
+
 function solution(ingredient) {
     var answer = 0;
-    const hamburger = [1,2,3,1]
     let makingBelt = [];
-    let makingIndex = 0;
-    let popCnt = 0;
-    
     for(let i = 0; i < ingredient.length; i++){
-        if(popCnt % 4 !== 0 || popCnt === 0) makingBelt.push(ingredient[i]);
-        if(popCnt === 4) popCnt = 0;
-
-      
-        
-        if(makingBelt[makingBelt.length-1] !== hamburger[makingIndex]) makingIndex = 0;
-        if(makingBelt[makingBelt.length-1] === hamburger[makingIndex]) {
-            if(makingIndex === hamburger.length - 1){
-                answer++;
-                makingBelt.pop();
-                makingBelt.pop();
-                makingBelt.pop();
-                makingBelt.pop();
-                popCnt+=4;
-                i--;
-                makingIndex = 0;
-                for(let j = 0; j < makingBelt.length; j++){
-                    if(makingBelt[j] === hamburger[j]) makingIndex++;
-                }
-                continue;
-            }
-            makingIndex++;
-        }
-    }
-    return answer;
-}
-
-
-
-
-function solution2(ingredient) {
-    var answer = 0;
-    const hamburger = '1231';
-    let temp = [...ingredient].join('');
-    if(!ingredient.join('').indexOf(hamburger)) return 0;
-    else{
-        let index;
-        while(temp.indexOf(hamburger) !== -1){
-            index = temp.indexOf(hamburger);
-            temp = temp.slice(0,index).concat(temp.slice(index+4));
+        makingBelt.push(ingredient[i]);
+        let lastIndex = makingBelt.length-1;
+        if(makingBelt[lastIndex] === 1 && 
+           makingBelt[lastIndex-1] === 3 && 
+           makingBelt[lastIndex-2] == 2 && 
+           makingBelt[lastIndex-3] == 1){
+            makingBelt.pop();
+            makingBelt.pop();
+            makingBelt.pop();
+            makingBelt.pop();
             answer++;
         }
     }
-    
     return answer;
 }
 
