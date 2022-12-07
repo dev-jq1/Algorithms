@@ -1,4 +1,4 @@
-// Level : 0
+// Level  : 0
 // 문제명 : 안전지대
 
 function solution(board) {
