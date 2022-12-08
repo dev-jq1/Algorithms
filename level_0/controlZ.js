@@ -1,3 +1,6 @@
+// Level  : 0
+// 문제명 : 컨트롤 제트
+
 function solution(s) {
     var answer = 0;
     const sArr = s.split(" ");
