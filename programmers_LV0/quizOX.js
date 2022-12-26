@@ -50,3 +50,11 @@ function solution(quiz) {
     
     return answer;
 }
+
+
+function solution2(quiz) {
+    return quiz.map(str => {
+        const [calc, result] = str.split(" = ");
+        return eval(calc) === +result ? "O" : "X";
+    })
+}
