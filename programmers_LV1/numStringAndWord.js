@@ -6,9 +6,9 @@ function solution(s) {
     var answer = s;
     //return arr1.map((v, i) => addZero(n, (v | arr2[i]).toString(2)).replace(/1|0/g, a => +a ? '#' : ' '));
     const numArr = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
-    while(true){
+    while(isNaN(answer)){
         answer = answer.replace(/zero|one|two|three|four|five|six|seven|eight|nine/i, str => numArr.indexOf(str));
-        if(!isNaN(answer)) break;
+        // if(!isNaN(answer)) break;
     }
     // s.replace(/zero/i, str=>numArr[str]);
     return Number(answer);
